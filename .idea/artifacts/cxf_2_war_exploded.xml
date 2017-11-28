@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cxf-2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/cxf_2_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cxf-2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="spring" />
+          <element id="library" level="project" name="cxf" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="cxf-2/web/Web" />
+    </root>
+  </artifact>
+</component>
